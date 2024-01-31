@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E113"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtStud"
+        android:text="Students Registration System"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInfo"
+        android:text="Fill in this form to register"
+        android:textSize="20dp"
+        android:layout_below="@id/txtStud"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:text="Name"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_below="@id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtClass"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:text="Class"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_below="@id/txtClass"
+        android:layout_marginTop="60dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRoll"
+        android:textSize="20dp"
+        android:text="Roll no."
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_below="@id/txtRoll"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:text="Email"
+        android:layout_marginLeft="20dp"
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Name "
+        android:minHeight="48dp"
+        android:layout_marginRight="20dp"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt1"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Class "
+        android:minHeight="48dp"
+        android:layout_marginRight="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt2"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Roll no. "
+        android:minHeight="48dp"
+        android:inputType="numberDecimal"
+        android:layout_marginRight="20dp"
+
+        />
+    <EditText
+        android:id="@+id/edt4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt3"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Email "
+        android:minHeight="48dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="20dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="Insert"
+        android:textSize="20dp"
+        android:id="@+id/insert"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="read"
+        android:textSize="20dp"
+        android:id="@+id/read"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="delete"
+        android:textSize="20dp"
+        android:id="@+id/delete"
+        />
+
+</RelativeLayout>
